@@ -1,0 +1,50 @@
+------------------------------------------------------------------Student Managment System-------------------------------------------------------------------
+
+Q.1 Identify Entities and sub entities ,their attributes and methods in Student Management System. 
+
+-----------------------------------------------------------------------STUDENT-ENTITY------------------------------------------------------------------------
+1>ENTITY   :-STUDENT
+
+  ATTRIBUTE:-student_id,student_college,student_name,student_mob_no,student_usernamestudent_password,
+  METHODS  :-getstudent_id,getstudent_college,getstudent_name,getstudent_mob_no,getstudent_username,getstudent_password,
+           :-setstudent_id,setstudent_college,setstudent_name,setstudent_mob_no,setstudent_username,setstudent_password,
+------------------------------------------------------------------------FEES-ENTITY--------------------------------------------------------------------------
+
+2>ENTITY   :-FESS
+
+  ATTRIBUTE:-Fees_course_id,Fees_amount,Fees_total,Fees_payment,Fees_type,Fees_Student_id
+
+  METHODS  :- getFees_course_id,getFees_amount,getFees_total,getFees_paymet,getFees_student_id,
+           :- setFees_course_id,setFees_amount,setFees_total,setFees_paymet,setFees_student_id,
+-----------------------------------------------------------------------LOGIN-ENTITY--------------------------------------------------------------------------
+
+3>ENTITY   :- LOGIN
+
+  ATTRIBUTE:-Login_id,Login_ Student-username,Login_Student_password,Login_lastlogin.
+
+  METHODS  :-getLogin_id,getLogin_ Student-username,getLogin_Student_password,getLogin_lastlogin.
+           :-setLogin_id,setLogin_ Student-username,setLogin_Student_password,setLogin_lastlogin.
+-----------------------------------------------------------------------COURSE-ENTITY-------------------------------------------------------------------------
+
+4>ENTITY   :- COURCE
+
+  ATTRIBUTE:-Cource_id,Cource_registration,Cource_name,
+
+  METHODS  :-getCource_id,getCource_registration,getCource_name,
+           :-setCource_id,setCource_registration,setCource_name,
+------------------------------------------------------------------------EXAM-ENTITY--------------------------------------------------------------------------
+
+5>ENTITY   :-EXAM 
+
+  ATTRIBUTE:-Exam_id,Exam_std_id,Exam_rollno,Exam_date,Exam_name,
+
+  METHODS  :-getExam_id,getExam_std_id,getExam_rollno,getExam_date,getExam_name,
+           :-setExam_id,setExam_std_id,setExam_rollno,setExam_date,setExam_name,
+
+---------------------------------------------------------------------------END-------------------------------------------------------------------------------
+
+
+
+
+
+                                                                                                                                                          A.@
