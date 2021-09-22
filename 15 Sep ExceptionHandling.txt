@@ -1,0 +1,70 @@
+1-Identify 10 checked exception and 10 unchecked exception handling classes in JSE 8.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+UNCHECKED EXCEPTIONS
+	NumberFormatException
+	NullPointerException
+	ArithmeticException
+	IndexOutOFBoundException
+        UnSupportedOperationException
+	ArrayStoreException	
+	ArrayIndexOutOfBoundException
+	StringIndexOutOfBoundException	
+	ClassCastException
+	IllegalStateException	
+	SecurityException
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+CHECKED EXCEPTIONS
+	IOException
+	SQLException
+        NoSuchFieldException
+	Exception
+	ClassNotFoundException
+	InstantiationException
+	NoSuchMethodException
+	IllegalAccessException	
+	InterruptedException
+	CloneNotSupportedException	
+-------------------------------------------------------------------------------------------------------------------------------------------------------------	
+
+2. Identify Custom exception handling classes for following systems
+
+Inventory Management System
+	UnauthorizedAccessException
+	OutOfStockException
+	InvalidLotSelectionException
+	InsufficientLotException
+        PaymentFailedException
+	MachineDownTimeException
+	MatrialShortageException
+	NoMoreOrdersException
+	ServerDowntimeException
+        DataOverFlowException
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Library Management System
+	UnauthorizedAccessException
+	BookNotFoundException
+        PaymentFailedException
+        DataOverFlowException
+	ServerDowntimeException
+        SystemNotResponseException
+        ReceiptNotFoundException
+	OverDueException
+	MaximumLimitReachedException
+	BookRenewalException
+	BookIssuerException
+        NotMatchSeriealNumberException
+        BookreturnException
+	DuplicateRecordFoundException
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Stock Management System
+	UnauthorizedAccessException
+	ServerDowntimeException
+        DataOverFlowException
+        PaymentFailedException
+	InsufficientFundsException
+	TradeExecutionException
+	TradingAccountNotFoundException
+	AccountReviewFailedException
+        
+	
+
