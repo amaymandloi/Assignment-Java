@@ -1,0 +1,55 @@
+
+//Test 
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringTest {
+
+	//Test
+	public void test() 
+	{
+		Simple main = new Simple();
+		
+		String str = "Java is object oriented programming language, it is platform Independent language";
+		int a = 2;
+		
+		int actual = main.String(str);
+		assertEquals(a,actual);
+	}
+	
+}
+
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Simple 
+{
+	public int String(String str)
+	{
+		int count =0;
+		if(str.equals(null))
+		{
+			throw new NullPointerException();
+		}
+		
+		
+		String [] arr = str.split(" ");
+		
+		Set s = new TreeSet();
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			 if(s.add(arr[i])==false)
+			 {
+				 count = count+1;
+			 }
+		}
+		
+           return count;
+	}
+}
+
+

@@ -1,0 +1,54 @@
+//Test
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Test {
+
+	//Test
+	public void test()
+	{
+		Simple S1= new Simple();
+		
+		int [] arr = {6,4,3,2,5,7,9,8,1};
+		int a = 5;
+		
+		int actual = S1.findPrime(arr);
+		assertEquals(a,actual);
+		
+	}
+
+}
+public class Simple
+{
+  public int findPrime(int [] arr)
+  {
+	  int temp =0;
+	  int count =0;
+  
+	  if(arr.length < 5)
+	  {
+		  throw new RuntimeException();
+	  }
+	  for(int i=0;i<arr.length;i++) 
+	  {
+		  for(int j=2;j<arr[i];j++) 
+		  {
+			  if(arr[i]%j ==0) 
+			  {
+				  temp = temp+1;
+			  }
+		  }
+		  if(temp==0) 
+		  {
+			 count = count+1; 
+		  }
+		  
+		  temp =0;
+	  }
+	  return count;
+  }
+}
+
+
